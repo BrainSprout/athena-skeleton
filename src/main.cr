@@ -1,5 +1,13 @@
+require "dotenv"
 require "athena"
+require "pg"
+require "crecto"
+require "carbon"
+require "carbon_smtp_adapter"
 
+Dotenv.load?
+
+require "./config/*"
 require "./commands/*"
 require "./controllers/*"
 require "./domain/*"
@@ -21,6 +29,8 @@ module MyApp
   module Exceptions; end
 
   module Listeners; end
+
+  module Emails; end
 end
 
 # Setup common to both CLI and HTTP contexts

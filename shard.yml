@@ -16,6 +16,20 @@ dependencies:
   athena:
     github: athena-framework/framework
     commit: 726ee942afd02de3afd6e461d35a3e28277b54e4
+  crecto:
+    github: Crecto/crecto
+    branch: master
+  carbon:
+    github: luckyframework/carbon
+  carbon_smtp_adapter:
+    github: luckyframework/carbon_smtp_adapter
+    branch: master
+  pg:
+    github: will/crystal-pg
+    version: 0.26.0
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    version: ~> 1.0.0
 
 development_dependencies:
   ameba:
@@ -24,3 +38,5 @@ development_dependencies:
   athena-spec:
     github: athena-framework/spec
     version: ~> 0.3.0
+  micrate:
+    github: amberframework/micrate

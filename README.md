@@ -1,11 +1,14 @@
-# skeleton
+# BrainSprout Skeleton
 
-Template repository to get up and running quickly with the Athena Framework which includes:
+A quick and dirty app skeleton for the [Athena Framework](), which includes:
 
 * A flexible directory structure
 * Pre-configured binary entrypoints for HTTP and CLI contexts
 * Development code-quality/testing dependencies + CI
 * Minimal runnable Athena Framework application
+* Dotenv for local development
+* Database integration via [Crecto](https://github.com/Crecto/crecto)
+* [Carbon](https://github.com/luckyframework/carbon) for sending emails
 
 ## Getting Started
 
